@@ -1,0 +1,32 @@
+
+---
+
+# 📄 pyproject.toml
+
+```toml
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mini-turtle-oo"
+version = "1.0.0"
+description = "Paquete educativo en Python que implementa una tortuga usando Programación Orientada a Objetos."
+readme = "README.md"
+authors = [
+    { name = "Julian Muñoz", email = "julian@email.com" }
+]
+license = { text = "MIT License" }
+keywords = ["python", "oop", "turtle", "educativo", "encapsulamiento"]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta"
+]
+
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/jian0895/mini_turtle_oo"
